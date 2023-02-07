@@ -11,7 +11,7 @@ app.set('view engine', 'ejs');
 const port = 80;
  
 //routes
-app.get("/", (req, res) => {
+app.get("/", (req, res) => { 
     res.render("index");
 })
 //creating unique id by uuid and rediricting the route
