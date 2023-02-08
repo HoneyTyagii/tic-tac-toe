@@ -9,7 +9,7 @@ const ngrok = require('ngrok');
 app.use(express.static('public'));
 app.set('view engine', 'ejs');
 const port = 80;
-
+ 
 //routes
 app.get("/", (req, res) => {
     res.render("index");
